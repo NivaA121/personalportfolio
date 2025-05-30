@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add these right after your existing meta tags -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.45/dist/lenis.min.js"></script> 
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gs.css">
+    
+</head>
+
+<body>
+
+    <!-- <header > -->
+        
+        <!-- <nav class="logo-home">
+            
+            <ul class="list-home">
+                <li class="home-select"><a href="home.html">Home</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+            <a href="contact.html" class="contact-button">Contact</a>
+        </nav>
+    </header> -->
+
+    <div class="scroll-effect">
+
+    <main data-section>
+        
+        <div class="main-intro">
+            <div class="hey">
+                <h1>Hey,</h1>
+            </div>
+            <div class="intro-a-h1">
+                <a href="#">Available for new opportunities</a>
+                <h1>I AM<br>NIVA AMRUTIA</h1>
+            </div>
+        </div>
+
+        <div class="main-quotes">
+            <div class="there">
+                <h1>there</h1>
+            </div>
+            <div class="quotes-p-h1">
+                <p>Specialized in Front-End Development<br>with expertise in Python, Javascript<br>and database systems.</p>
+                <h1>SOFTWARE<br>DEVELOPER</h1>
+            </div>
+        </div>
+        
+    </main>
+
+    <section class="about-section" data-section>
+        <div class="about-container">
+
+            <div class="about-image">
+    <!-- Round artistic profile picture with bubbles -->
+    <div class="profile-image-container">
+        <!-- Rotating gold frame -->
+        <div class="profile-frame"></div>
+
+        <img src="/Users/macos/Documents/myportfolio/about-me-pic.jpeg" alt="Niva Amrutia" class="profile-image">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+</div>
+
+            <div class="about-content">
+                <!-- <h2 class="about-heading">About <span class="accent-color">Me</span></h2> -->
+                 <div class="heading-box">
+                <h2 class="about-heading"> <span class="accent-color">About Me</span></h2>
+            </div>
+
+                <p class="about-text1">
+                    <!-- I'm Niva Amrutia, a passionate Computer Science Engineering student at PDEU Gandhinagar with an 8.79/10 CGPA. 
+                    As a full-stack developer, I specialize in creating dynamic web experiences with JavaScript, Python, and modern frameworks, 
+                    while also building AI solutions like my SoulBuddy spiritual guide project. -->
+                    A passionate Computer Science student and<br>front-end developer specializing in web<br>technologies and AI solutions!!!
+                </p>
+                <p class="about-text2">
+                    My technical arsenal includes C/C++, Java, MySQL, and competitive programming skills, complemented by coursework in 
+                    algorithms, operating systems, and database management. When I'm not coding, you'll find me participating in hackathons 
+                    (like my Level SuperMind finalist achievement) or contributing to social causes.
+                </p>
+                <!-- <div class="about-contact">
+                    <div class="contact-info">
+                        <p><strong>Name:</strong> Niva Amrutia</p>
+                        <p><strong>Phone:</strong> +91 6351512967</p>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> nivaharesh9@gmail.com</p>
+                        <p><strong>GitHub:</strong> NivaA121</p>
+                    </div>
+                </div> -->
+                <div class="contact-box">
+                <div class="about-contact">
+                    <div class="contact-info">
+                        <p><strong>Name:</strong> Niva Amrutia</p>
+                        <p><strong>Phone:</strong> +91 6351512967</p>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> nivaharesh9@gmail.com</p>
+                        <p><strong>Linkedin:</strong> Niva Amrutia</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="about-actions">
+                    <!-- <a href="contact.html" class="contact-button">Contact me</a> -->
+                    <a href="../myportfolio/Niva_resume.pdf" download="" class="resume-button">Download resume
+                        <img src="../myportfolio/downloading.png">
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Add this section after your about-section -->
+<section class="timeline-section" style="background-color: white;" data-section>
+    <div class="timeline-container">
+        <h2 class="timeline-heading">My Journey</h2>
+        <div class="timeline-horizontal">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3><span class="education-title">CLASS X</span><br>R.H. Kapadia New High School<br>Ahmedabad, Gujarat<br>Score: 96PR</h3>
+                </div>
+                <div class="timeline-year">2021</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3><span class="education-title">CLASS XII</span><br>SS Divine School<br>Ahmedabad, Gujarat<br>Score: 81.59PR</h3>
+                </div>
+                <div class="timeline-year">2023</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3><span class="education-title">BTech in CSE</span><br>Pandit Deendayal Energy University<br>Gandhinagar, Gujarat<br>CGPA: 8.79/10</h3>
+                </div>
+                <div class="timeline-year">Present</div>
+            </div>
+            <div class="timeline-line"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Add this section where you want the cube buildings to appear -->
+<section class="skills-cubes-section" data-section>
+    <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        
+        <div class="cube-buildings">
+            
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="C/C++">
+                        <div class="face front">C/C++</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="C/C++">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="C/C++">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">C/C++ - I'm awesome at this</div>
+            </div>
+            
+            
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="Python">
+                        <div class="face front">Python</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="Python">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="Python">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">Python - I'm really good at this</div>
+            </div>
+
+
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="Java">
+                        <div class="face front">Java</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="Java">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="Java">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">Java - I'm pretty good at this</div>
+            </div>
+
+            
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="JavaScript">
+                        <div class="face front">JavaScript</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="JavaScript">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="JavaScript">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">JavaScript - I'm really good at this</div>
+            </div>
+
+
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="STL">
+                        <div class="face front">STL</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="STL">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="STL">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">STL - I'm pretty good at this</div>
+            </div>
+
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="MySQL">
+                        <div class="face front">MySQL</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="MySQL">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="MySQL">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">MySQL - I'm really good at this</div>
+            </div>
+
+
+            <div class="building">
+                <div class="cube-stack">
+                    <div class="cube" data-skill="HTML/CSS">
+                        <div class="face front">HTML/CSS</div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">3</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="HTML/CSS">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">2</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="cube" data-skill="HTML/CSS">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left">1</div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+                <div class="building-label">HTML/CSS - I'm awesome at this</div>
+            </div>
+
+
+            
+            
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- Add this section after your skills-cubes-section -->
+<section class="projects-section" data-section>
+    <div class="projects-container">
+        <h2 class="projects-heading">PROJECTS</h2>
+        <p class="projects-intro">Here you will find some of the personal projects that I created with each project containing its own case study</p>
+        
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                
+                <div class="project-content">
+                    
+                    <h3 class="project-title">Global Solutions</h3>
+                    <p class="project-description">Developed a professional website for Global Solutions, showcasing IT, networking, and telecom services using HTML, CSS, and JavaScript.</p>
+                    <a href="gs.html" class="case-study-button">CASE STUDY</a>
+                </div>
+                <div class="project-image">
+                    <img src="../myportfolio/gs1.jpg" alt="Dopefolio Project">
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">AI SoulBuddy</h3>
+                    <p class="project-description">Developed SoulBuddy, a mental wellness web app offering AI-driven emotional support and self-care resources, built with Streamlit.</p>
+                    <a href="sb.html" class="case-study-button">CASE STUDY</a>
+                </div>
+                <div class="project-image">
+                    <img src="../myportfolio/sb1.jpg" alt="Project Name">
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Hackonauts Chatbot</h3>
+                    <p class="project-description">Developed Hackonauts, an AI-powered chatbot web app for social media analytics, utilizing Langflow, DataStax, and OpenAI API.</p>
+                    <a href="hc.html" class="case-study-button">CASE STUDY</a>
+                </div>
+                <div class="project-image">
+                    <img src="../myportfolio/hc1.jpg" alt="Project Name">
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Map Project</h3>
+                    <p class="project-description">Developed PDEU Navigation, a campus navigation web app utilizing QR codes and interactive maps to assist students and visitors in locating facilities across the university.</p>
+                    <a href="map.html" class="case-study-button">CASE STUDY</a>
+                </div>
+                <div class="project-image">
+                    <img src="../myportfolio/map1.jpg" alt="Project Name">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Add this section after your projects section -->
+<section class="contact-form-section" data-section>
+    <div class="contact-form-container">
+        <h2 class="contact-form-heading">Ask me a question</h2>
+        <p class="contact-form-subheading">Smart, silly, frivolous*, I'd be happy to answer it!</p>
+        <p class="contact-form-note">*IS THERE EVEN SUCH A THING?</p>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject (required)</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message (required)</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">FIRE AWAY →</button>
+        </form>
+    </div>
+</section>
+
+
+<footer class="greeting">
+        <div class="social">
+            <a class="a-linkedin" href="#">
+                <div class="linkedin"></div>
+            </a>
+
+            <a href="#">
+                <div class="facebook"></div>
+            </a>
+        </div>
+
+    </footer>
+
+
+</div>
+
+<!-- <script>
+    // Initialize Lenis smooth scroll
+    // const lenis = new Lenis({
+    //     lerp: 0.1,
+    //     smooth: true,
+    //     direction: 'vertical'
+    // });
+
+    // function raf(time) {
+    //     lenis.raf(time);
+    //     requestAnimationFrame(raf);
+    // }
+    // requestAnimationFrame(raf);
+
+    // Register GSAP plugins
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Initialize scroll animations
+    document.addEventListener('DOMContentLoaded', () => {
+        // Animate all sections with data-section attribute
+        gsap.utils.toArray('[data-section]').forEach(section => {
+            gsap.fromTo(section, 
+                { opacity: 0, y: 50 },
+                { 
+                    opacity: 1, 
+                    y: 0,
+
+                    duration: 1,
+                    // duration: 0.1,
+
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: section,
+                        start: "top 80%",
+                        toggleActions: "play none none none"
+                    }
+                }
+            );
+        });
+
+        // More specific animations for elements
+        gsap.from(".main-intro h1", {
+            x: -100,
+            opacity: 0,
+            duration: 0.1,
+            scrollTrigger: {
+                trigger: "main",
+                start: "top center",
+                toggleActions: "play none none none"
+            }
+        });
+
+        gsap.from(".main-quotes h1", {
+            x: 100,
+            opacity: 0,
+            duration: 0.1,
+            scrollTrigger: {
+                trigger: "main",
+                start: "top center",
+                toggleActions: "play none none none"
+            }
+        });
+
+        // Animate timeline items
+        gsap.utils.toArray(".timeline-item").forEach((item, i) => {
+            gsap.from(item, {
+                y: 50,
+                opacity: 0,
+                duration: 0.8,
+                // duration: 0.1,
+                delay: i * 0.2,
+                // delay: i * 0,
+                scrollTrigger: {
+                    trigger: ".timeline-section",
+                    start: "top 70%",
+                    toggleActions: "play none none none"
+                }
+            });
+        });
+
+        // Animate project cards
+        gsap.utils.toArray(".project-card").forEach((card, i) => {
+            gsap.from(card, {
+                y: 100,
+                opacity: 0,
+                duration: 0.8,
+                // duration: 0.1,
+                delay: i * 0.15,
+                // delay: i * 0,
+                scrollTrigger: {
+                    trigger: ".projects-section",
+                    start: "top 80%",
+                    toggleActions: "play none none none"
+                }
+            });
+        });
+    });
+
+    // Add to your existing JavaScript
+const cubes = document.querySelectorAll('.cube');
+const cubeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+        }
+    });
+}, { threshold: 0.5 });
+
+cubes.forEach(cube => {
+    cubeObserver.observe(cube);
+});
+</script> -->
+
+
+
+
+</body>
+
+
+
+
+</html>
